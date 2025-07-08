@@ -1,0 +1,80 @@
+.navbar-collapse {
+    font-style: normal;
+    font-size: 1.5em;  
+
+}
+.navbar {
+    background-color: rgb(221, 165, 228) !important;
+    background: linear-gradient(45deg, #e29fd3, rgb(87, 4, 112));
+}
+body {
+   background-color: rgb(255, 192, 255);
+    background: linear-gradient(45deg, #f5e8f2, rgb(129, 32, 148));
+}
+.card-group {
+    display: flex;
+    flex-wrap: wrap !important;
+    margin: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+#carouselNaoSeCale {
+    max-width: 100%;
+    min-width: 200px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20%;
+    margin: 20px auto;
+}
+@media (max-width: 1200px) {
+    #carouselNaoSeCale {
+        height: 100%; 
+        max-width: 100%;
+        min-width: 200px;
+        
+    }
+}
+
+
+.container {
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; 
+  padding: 10px;
+}
+
+.image {
+    gap: 20px !important;
+  margin-right: 10px; 
+  max-width: 400px;
+  height: 200px;
+  flex-wrap: wrap !important;
+  border-radius: 10%;
+  margin: 20px;
+  align-items: end !important;
+}
+
+.text {
+  flex: 1; 
+  flex-wrap: wrap !important;
+    max-width: 800px;
+    max-height: 1000px;
+    font-size: 1.5em;
+    color: rgb(50, 4, 54);
+    background-color: rgb(230, 158, 233) !important;
+
+}
+.foto {
+    max-width: 250px;
+    min-width: 200px;
+    min-height: 200px;
+    object-fit: cover;
+    border-radius: 20%;
+    margin: 10px;
+}
+.card b {
+    color: rgb(50, 4, 54);
+    font-size: 1.5em;
+
+}  
